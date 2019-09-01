@@ -10,7 +10,7 @@ function theBeatlesPlay(musiciansArray, instrumentsArray){
 function johnLennonFacts(array){
   var countdown = array.length
   var i = 0
-  var newArray
+  var newArray = []
   while (countdown > 0){
     newArray.push(`${array[i]}!!!`)
     i = i++
